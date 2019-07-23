@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.vakilman.logging">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:text="LOG-IN"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="50dp"
+        android:layout_marginLeft="180sp"
+        android:layout_marginTop="40dp"
+        />
+    <EditText
+        android:id="@+id/email1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="email id"
+        android:inputType="textEmailAddress|textPersonName"
+        android:layout_marginLeft="100sp"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="116dp" />
+
+    <EditText
+        android:id="@+id/password1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="password"
+        android:layout_marginLeft="100sp"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="192dp" />
+
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:onClick="loginUser"
+        android:text="Log-in"
+        android:layout_marginLeft="130sp"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="288dp" />
+
+
+
+</LinearLayout>

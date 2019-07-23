@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Vakil Man</string>
+
+    <string-array name="names">
+        <item>Please select a category</item>
+        <item>About Us</item>
+        <item>Services</item>
+        <item>Chambers</item>
+
+    </string-array>
+</resources>

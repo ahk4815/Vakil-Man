@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.vakilman.post_query">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="109dp"
+        android:layout_height="45dp"
+        android:text="Post Query"
+        android:layout_marginLeft="100sp"
+        android:layout_marginTop="40sp"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <EditText
+        android:id="@+id/write"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:layout_marginLeft="70sp"
+        android:layout_marginTop="10sp"
+       android:hint="write description here"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="174dp" />
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="choose"
+        android:layout_marginLeft="60sp"
+        android:onClick="choosefile"
+        android:layout_marginTop="10sp"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="290dp" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:onClick="submit_doc"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="10sp"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="394dp" />
+   </LinearLayout>
+    <ImageView
+        android:id="@+id/doc_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+   </LinearLayout>

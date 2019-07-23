@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.vakilman.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:text="New user?Sign-up"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="50dp"
+        android:layout_marginLeft="150sp"
+        android:layout_marginTop="40dp"
+        />
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="email id"
+        android:inputType="textEmailAddress|textPersonName"
+        android:layout_marginLeft="100sp"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="116dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="password"
+        android:layout_marginLeft="100sp"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="192dp" />
+
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:onClick="register"
+        android:text="Sign-up"
+        android:layout_marginLeft="130sp"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="288dp" />
+
+    <TextView
+        android:id="@+id/login"
+        android:onClick="log_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already a member?log-in"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:layout_editor_absoluteX="115dp"
+        android:layout_marginLeft="130sp"
+        tools:layout_editor_absoluteY="379dp" />
+
+</LinearLayout>

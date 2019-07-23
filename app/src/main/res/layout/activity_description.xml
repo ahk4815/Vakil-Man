@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.vakilman.description">
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner1"
+     />
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="376dp"
+        android:layout_height="75dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingLeft="90sp"
+        android:layout_marginTop="40sp"
+        android:text="WELCOME TO VAKIL MAN"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="89dp" />
+
+    <Button
+        android:id="@+id/call"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+
+        android:inputType="textPersonName"
+        android:onClick="calling"
+        android:text="call us"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="194dp" />
+    <Button
+        android:id="@+id/mail"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+
+        android:inputType="textPersonName"
+        android:onClick="mailing"
+        android:text="EMAIL US"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="194dp" />
+    <Button
+        android:id="@+id/post_query"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:onClick="postQuery"
+        android:text="post your query"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="276dp" />
+
+    <Button
+        android:id="@+id/book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:onClick="booking"
+        android:text="Book an appointment"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="366dp" />
+
+
+</LinearLayout>
